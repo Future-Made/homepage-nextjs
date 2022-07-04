@@ -21,13 +21,20 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-        <a href="https://vimeo.com/526183104" className={styles.card}>
+        <a href="" className={styles.card}>
           <p>
+            
+          </p>
+            </a>
+            <div href="https://nextjs.org/learn" className={styles.card}>
+            <h2>what? &rarr;</h2>
+            <p>
             A demand-aware approach for the age of prosumers. Constants over
             predictions for capacity and accessibility.{" "}
               see it in action ~{">"}
-          </p>
-            </a>
+            </p>
+          </div>
+
 
           <div href="https://nextjs.org/learn" className={styles.card}>
             <h2>what? &rarr;</h2>
