@@ -12,27 +12,38 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          future, made.
-        </h1>
+        <h1 className={styles.title}>future, made.</h1>
 
         <p className={styles.description}>
-          not really ~ let{"'"}s shape it forward.
+          not really ~ only, there exist more clarity now. <br></br>
+          
         </p>
+
+        {/* <p className={styles.description}>
+          light a neon: new expression of needs
+        </p> */}
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Intentions over impressions &rarr;</h2>
-            <p>A demand-aware framework for the age of opinionated prosumers. Constants over predictions.</p>
+            <h2>what is this? &rarr;</h2>
+            <p>
+              A demand-aware framework, that welcomes constants over
+              predictions, and intentions over impressions. It is about creating a mutualism between consumers and producers. Focuses around making the best out of those potential, future interactions that are not limited to buy/sell.
+            </p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>What does it change? &rarr;</h2>
-            <p>Express a potential interest, a proactive
-              offer with their terms and conditions.</p>
+            <h2>How does it do it then? &rarr;</h2>
+            <p>
+             
+            Introducing Expression of Demand and less-predicted producer-consumer
+          scenarios of the new ad-biz. We'll call it demand for the sake of theoretical foundations.
+              {/* Express a potential interest, a proactive offer with their terms
+              and conditions. */}
+            </p>
           </a>
 
-          {/* <a
+          <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
@@ -48,7 +59,7 @@ export default function Home() {
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
-          </a> */}
+          </a>
         </div>
       </main>
 
@@ -58,9 +69,14 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          powered by{' '} 
+          powered by{" "}
           <span className={styles.logo}>
-            <Image src="/om_logo.png" alt="offset movement" width={30} height={30} />
+            <Image
+              src="/om_logo.png"
+              alt="offset movement"
+              width={30}
+              height={30}
+            />
           </span>
         </a>
       </footer>
